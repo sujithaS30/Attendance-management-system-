@@ -1,0 +1,34 @@
+2026-02-12T11:10:13.903Z [INFO] ----------------------invoke generate_upgrade_plan----------------------
+2026-02-12T11:10:13.904Z [INFO] [Tool.invoke]({name: generate_upgrade_plan, input: {
+  "projectPath": "e:\\Attendance-management-system\\Backend\\demo",
+  "javaVersion": "17",
+  "targetJavaVersion": "21"
+}}).
+2026-02-12T11:10:13.905Z [INFO] [Plan.tryStartTask]({tool:generate_upgrade_plan, nextTask:{type:undefined, tool:undefined}}
+2026-02-12T11:10:13.905Z [INFO] [Plan.tryStartTask]: no next task, create new one.
+2026-02-12T11:10:13.905Z [INFO] [Plan.createTaskAtStart]({tool: generate_upgrade_plan, input: {
+  "projectPath": "e:\\Attendance-management-system\\Backend\\demo",
+  "javaVersion": "17",
+  "targetJavaVersion": "21",
+  "sessionId": "20260212111013"
+}}).
+2026-02-12T11:10:13.906Z [INFO] [Plan.tryStartTask]: starting task generatePlan
+2026-02-12T11:10:13.906Z [INFO] [Task.start](): Starting task generatePlan
+2026-02-12T11:10:13.908Z [INFO] [Task.start](1): Started task generatePlan
+2026-02-12T11:10:13.911Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2026-02-12T11:10:13.912Z [INFO] [Tool.invoke] do pre-invoke.
+2026-02-12T11:10:13.912Z [INFO] [Tool.invoke] do invoke.
+2026-02-12T11:10:55.520Z [INFO] Project dependencies loaded: [
+  "org.springframework.boot:spring-boot-starter-web:3.3.5:jar",
+  "org.springframework.boot:spring-boot-starter-data-jpa:3.3.5:jar",
+  "com.mysql:mysql-connector-j:8.3.0:jar",
+  "org.springframework.boot:spring-boot-starter-test:3.3.5:jar"
+]
+2026-02-12T11:10:55.521Z [INFO] Project modules loaded: [
+  "com.attendance:attendance-backend:0.0.1-SNAPSHOT"
+]
+2026-02-12T11:10:55.599Z [ERROR] [Tool.invoke] error occurs when invoking tool generate_upgrade_plan: Error: Failed to get git status for e:\Attendance-management-system\Backend\demo: 'git' is not recognized as an internal or external command,
+operable program or batch file..
+2026-02-12T11:10:55.601Z [INFO] [Task.complete](1): Completing task generatePlan
+2026-02-12T11:10:55.603Z [INFO] ----------------------invoked generate_upgrade_plan----------------------
+2026-02-12T11:10:55.604Z [INFO] [Task.complete](1): Completed task generatePlan
