@@ -1,0 +1,5 @@
+com\attendance\demo\DemoApplication.class
+com\attendance\demo\StudentRepository.class
+com\attendance\demo\Testcontroller.class
+com\attendance\demo\StudentController.class
+com\attendance\demo\student.class
