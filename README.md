@@ -270,7 +270,7 @@ GitHub:
 https://github.com/sujithaS30
 
 LinkedIn:
-_Add your LinkedIn profile here_
+https://www.linkedin.com/in/sujitha-s-306482327/
 
 ---
 
